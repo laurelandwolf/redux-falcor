@@ -55,7 +55,7 @@ export default class FalcorProvider extends Component {
     this.falcorStore = createStore(props.store);
     attachOnChange(props.falcor, this.falcorStore);
 
-    invariant(false,
+    console.warn(
       `This is a React 0.13 patch, after upgrade to React 14 is complete remove @laurelandwolf/redux-falcor` +
       `from package.json and replace with "redux-falcor"`
     )
