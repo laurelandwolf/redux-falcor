@@ -1,5 +1,6 @@
 import { Component, PropTypes, Children } from 'react';
 import expandCache from 'falcor-expand-cache';
+import invariant from 'invariant';
 
 import createStore from './createStore';
 
@@ -53,6 +54,11 @@ export default class FalcorProvider extends Component {
     this.falcor = props.falcor;
     this.falcorStore = createStore(props.store);
     attachOnChange(props.falcor, this.falcorStore);
+
+    invariant(false,
+      `This is a React 0.13 patch, after upgrade to React 14 is complete remove @laurelandwolf/redux-falcor` +
+      `from package.json and replace with "redux-falcor"`
+    )
   }
 
   getChildContext() {
@@ -63,7 +69,8 @@ export default class FalcorProvider extends Component {
   }
 
   render() {
-    const { children } = this.props;
-    return Children.only(children);
+    let {children} = this.props
+    children = children()
+    return children
   }
 }
