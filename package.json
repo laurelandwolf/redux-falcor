@@ -42,7 +42,7 @@
   },
   "peerDependencies": {
     "falcor": "^0.1.13",
-    "react": "^0.14.0",
+    "react": "^0.13.3",
     "redux": "^2.0.0 || ^3.0.0"
   },
   "devDependencies": {
@@ -61,7 +61,7 @@
     "falcor": "^0.1.13",
     "falcor-router": "^0.2.9",
     "mocha": "^2.3.4",
-    "react": "^0.14.3",
+    "react": "^0.13.3",
     "rimraf": "^2.4.3",
     "webpack": "^1.12.2"
   },
