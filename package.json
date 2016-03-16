@@ -1,5 +1,5 @@
 {
-  "name": "redux-falcor",
+  "name": "@laurelandwolf/redux-falcor",
   "version": "3.0.0",
   "description": "A helper library for integratig Redux & Falcor",
   "main": "lib/index.js",
@@ -20,18 +20,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ekosz/redux-falcor.git"
+    "url": "https://github.com/laurelandwolf/redux-falcor.git"
   },
   "keywords": [
     "redux",
     "falcor"
   ],
-  "author": "Eric Koslow <ekoslow@gmail.com> (https://github.com/ekosz)",
+  "author": "Eric Koslow <ekoslow@gmail.com> (https://github.com/ekosz), David Slone <david@laurelandwolf.com> (https://github.com/dbslone)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ekosz/redux-falcor/issues"
+    "url": "https://github.com/laurelandwolf/redux-falcor/issues"
   },
-  "homepage": "https://github.com/ekosz/redux-falcor#readme",
+  "homepage": "https://github.com/laurelandwolf/redux-falcor#readme",
   "dependencies": {
     "deepmerge": "^0.2.10",
     "falcor-expand-cache": "^0.0.3",
